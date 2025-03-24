@@ -3,7 +3,7 @@ def main():
         print("選択してください：")
         print("1: sato")
         print("2: kaoru")
-        print("3: 選択肢3")
+        print("3: ここを変更")
         print("q: 終了")
 
         choice = input("> ")
@@ -13,7 +13,7 @@ def main():
         elif choice == "2":
             print("kaorudesu")
         elif choice == "3":
-            print("選択肢3が選ばれました。")
+            print("ここを変更。")
         elif choice == "q":
             print("プログラムを終了します。")
             break
